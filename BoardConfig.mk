@@ -26,5 +26,9 @@ TARGET_BOOTLOADER_BOARD_NAME := lahaina
 TARGET_NO_BOOTLOADER := false
 TARGET_USES_UEFI := true
 
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := lahaina
+
 # Inherit the proprietary files
 include vendor/nothing/spacewar/BoardConfigVendor.mk
