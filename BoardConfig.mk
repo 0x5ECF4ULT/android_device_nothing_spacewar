@@ -21,5 +21,10 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := kryo385
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := lahaina
+TARGET_NO_BOOTLOADER := false
+TARGET_USES_UEFI := true
+
 # Inherit the proprietary files
 include vendor/nothing/spacewar/BoardConfigVendor.mk
