@@ -7,6 +7,9 @@
 # Inherit the proprietary files
 $(call inherit-product, vendor/nothing/spacewar/spacewar-vendor.mk)
 
+# Include GSI keys
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+
 # Enable virtual A/B OTA
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
