@@ -90,5 +90,8 @@ TARGET_USES_MKE2FS := true
 # SEPolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
+# Treble
+BOARD_VNDK_VERSION := current
+
 # Inherit the proprietary files
 include vendor/nothing/spacewar/BoardConfigVendor.mk
