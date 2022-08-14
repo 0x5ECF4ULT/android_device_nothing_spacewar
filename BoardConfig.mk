@@ -63,6 +63,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_BOOT_HEADER_VERSION := 4
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
+BOARD_BOOTCONFIG := androidboot.selinux=permissive
 BOARD_KERNEL_CMDLINE += \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
@@ -107,6 +108,9 @@ TARGET_COPY_OUT_PRODUCT := product
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := lahaina
+
+# RIL (Radio Interface Layer)
+ENABLE_VENDOR_RIL_SERVICE := true
 
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
