@@ -131,3 +131,8 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit the proprietary files
 include vendor/nothing/spacewar/BoardConfigVendor.mk
+
+TARGET_COPY_OUT_VENDOR := vendor
+TARGET_COPY_OUT_SYSTEM_EXT := system_ext
+TARGET_COPY_OUT_ODM := odm
+TARGET_COPY_OUT_PRODUCT := product
