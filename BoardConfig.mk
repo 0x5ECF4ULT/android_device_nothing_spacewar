@@ -78,7 +78,7 @@ BOARD_KERNEL_CMDLINE += \
     swiotlb=0 \
     video=vfb:640x400,bpp=32,memsize=3072000
 TARGET_KERNEL_SOURCE := kernel/nothing/spacewar
-TARGET_KERNEL_CONFIG := defconfig
+TARGET_KERNEL_CONFIG := lineage_spacewar_defconfig
 
 # Partitions
 BOARD_USES_METADATA_PARTITION := true
