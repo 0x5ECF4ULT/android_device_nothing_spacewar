@@ -2,5 +2,9 @@
   {
     "repository": "android_kernel_nothing_spacewar",
     "target_path": "kernel/nothing/spacewar"
+  },
+  {
+    "repository": "proprietary_vendor_nothing",
+    "target_path": "vendor/nothing/spacewar"
   }
 ]
