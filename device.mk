@@ -50,10 +50,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# USB
-PRODUCT_VENDOR_PROPERTIES += \
-    persist.vendor.usb.config=mtp,adb
-
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
