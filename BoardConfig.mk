@@ -28,6 +28,10 @@ AB_OTA_PARTITIONS += \
     vendor \
     vendor_boot
 
+# Audio
+AUDIO_FEATURE_ENABLED_GKI := true
+BOARD_USES_ALSA_AUDIO := true
+
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
