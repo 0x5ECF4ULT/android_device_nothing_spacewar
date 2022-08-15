@@ -6,6 +6,8 @@
 
 DEVICE_PATH := device/nothing/spacewar
 
+TARGET_OTA_ASSERT_DEVICE := Spacewar,SpacewarEEA,spacewar,spacewarEEA
+
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
