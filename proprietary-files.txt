@@ -1055,12 +1055,8 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 # Firmware
 vendor/firmware/wigig/wigig.ini
 vendor/firmware/wlan/qca_cld/qca6390/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/qca_cld/qca6390/wlan_mac.bin
 vendor/firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/qca_cld/qca6750/wlan_mac.bin
 vendor/firmware/wlan/qca_cld/wlan/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/qca_cld/wlan/wlan_mac.bin
-vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
 vendor/firmware/a615_zap.b00
 vendor/firmware/a615_zap.b01
 vendor/firmware/a615_zap.b02
@@ -1185,7 +1181,6 @@ vendor/firmware/vpu20_4v.b19
 vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v.mdt
 vendor/firmware/vpu20_4v_unsigned.mbn
-vendor/firmware/wlanmdsp.otaupdate
 
 # GPS
 system_ext/etc/permissions/com.qti.location.sdk.xml

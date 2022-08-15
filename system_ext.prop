@@ -1,0 +1,6 @@
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+persist.vendor.dpm.feature=11
+ro.telephony.sim_slots.count=2
+telephony.active_modems.max_count=2

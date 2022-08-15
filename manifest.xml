@@ -810,8 +810,5 @@
         </interface>
         <fqname>@1.1::ISPUManager/default</fqname>
     </hal>
-    <sepolicy>
-        <version>30.0</version>
-    </sepolicy>
     <kernel target-level="5"/>
 </manifest>
